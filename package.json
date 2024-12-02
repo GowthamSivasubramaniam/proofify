@@ -1,0 +1,29 @@
+{
+  "name": "proofify",
+  "version": "1.0.0",
+  "description": "A bot detection system ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "big-integer": "^1.6.52",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.1",
+    "fs": "^0.0.1-security",
+    "os-browserify": "^0.3.0",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2"
+  },
+  "author": "Mano Sundar M",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
